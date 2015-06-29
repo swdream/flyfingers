@@ -1,7 +1,7 @@
 flyfingers
 ==========
 
-Learn to type 10 fingers. Make your speed fastter.
+Learn to type 10 fingers. Make your speed faster.
 
 .. image:: https://github.com/swdream/flyfingers/blob/master/misc/moon.jpg
 
