@@ -7,7 +7,7 @@ import random
 import string
 import sys
 
-__version__ = '0.1'
+__version__ = '0.1.1'
 __doc__ = '''Learn to type 10 fingers'''
 
 
@@ -15,7 +15,7 @@ def run(length):
     count = 0
     while True:
         print "string pattern:"
-        str_pattern = ''.join(random.choice(string.printable + ' ')
+        str_pattern = ''.join(random.choice(string.printable.split('\t')[0])
                               for i in range(int(length)))
         print str_pattern
         starttime = datetime.datetime.now()
@@ -46,4 +46,4 @@ def run(length):
             sys.exit(2)
 
 if __name__ == '__main__':
-    run(4)
+    run(2)
