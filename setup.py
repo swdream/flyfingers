@@ -15,10 +15,10 @@ setup(
     version=flyfingers.__version__,
     description='Learn to type 10 fingers',
     scripts=['scripts/flyfingers'],
-    long_description=open('README.rst').read(),
     author='Thanh Nguyen Tuong',
     author_email='ngtthanh1010@gmail.com',
     packages=['flyfingers'],
+    url='https://github.com/swdream/flyfingers',
     license='MIT',
     classifiers=[
         'Environment :: Console',
