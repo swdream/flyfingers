@@ -6,6 +6,7 @@ import datetime
 import random
 import string
 import sys
+import time
 
 __version__ = '0.1.1'
 __doc__ = '''Learn to type 10 fingers'''
@@ -14,6 +15,7 @@ __doc__ = '''Learn to type 10 fingers'''
 def run(length):
     count = 0
     while True:
+        time.sleep(1)
         print "string pattern:"
         str_pattern = ''.join(random.choice(string.printable.split('\t')[0])
                               for i in range(int(length)))
